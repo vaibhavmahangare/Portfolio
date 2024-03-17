@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Blogify",
+    "imageSrc": "projects/project.png",
+    "description": "Created a simple blog app and deployed it on AWS using CICD pipeline",
+    "skills": ["Aws", "Nodejs", "Express","MongoDB"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "Krushi-Mitra",
+    "imageSrc": "projects/project.png",
+    "description": "Created a web app to suggest suitable crop to the farmer according to the various soil pparameters using machine learning algorithms.",
+    "skills": ["ML", "Bootstrap", "Python"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "E-CELL@MITAOE",
+    "imageSrc": "projects/project.png",
+    "description": "Created a website of Ecell mitaoe.",
+    "skills": ["Angular", "Express", "Node","MongoDB"],
+    "demo": "",
+    "source": ""
+  }
+]

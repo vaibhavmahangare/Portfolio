@@ -1,0 +1,74 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 98.9vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text {
+  flex: 1; /* Take up available space */
+}
+
+.text h2 {
+  font-size: 6vw; /* Adjust font size for responsiveness */
+  font-weight: 700;
+  letter-spacing: 1px; /* Reduce letter spacing for readability */
+  text-align: center; /* Center align the text */
+}
+
+.text p {
+  font-size: 4vw; /* Adjust font size for responsiveness */
+  font-weight: 400;
+  letter-spacing: 1px; /* Reduce letter spacing for readability */
+  text-align: center; /* Center align the text */
+}
+
+.links {
+  flex: 1; /* Take up available space */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+  list-style: none;
+  gap: 20px; /* Adjust gap between items */
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adjust gap between link items */
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 3.5vw; /* Adjust font size for responsiveness */
+  font-weight: 400;
+  letter-spacing: 1px; /* Reduce letter spacing for readability */
+}
+
+@media only screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .text h2 {
+    font-size: 8vw; /* Adjust font size for smaller screens */
+  }
+
+  .text p {
+    font-size: 6vw; /* Adjust font size for smaller screens */
+  }
+
+  .link a {
+    font-size: 5vw; /* Adjust font size for smaller screens */
+  }
+}
